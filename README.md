@@ -1,6 +1,9 @@
 # FriendFusion
 
 **FriendFusion** is a real-time chat application that enables users to connect, communicate, and share images instantly. Built with modern web technologies like React, Node.js, Socket.io, and MongoDB, FriendFusion provides a seamless chat experience with user authentication, image sharing, and responsive design.
+
+
+## Screenshots
 <img width="1726" height="855" alt="Screenshot 2025-08-03 155217" src="https://github.com/user-attachments/assets/e8e4867f-eba1-4a24-bd52-71b891b2f10c" />
 <img width="780" height="855" alt="Screenshot 2025-08-03 155259" src="https://github.com/user-attachments/assets/2463f5b0-0a9f-4749-836f-83f484bc6212" />
 <img width="1581" height="915" alt="Screenshot 2025-08-03 155243" src="https://github.com/user-attachments/assets/737c5905-e54e-4d13-9593-5f383fa18897" />
@@ -13,13 +16,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Environment Variables](#environment-variables)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Features
@@ -91,9 +87,10 @@ Before starting, ensure you have the following installed:
 4. **Launch the app:**
    Open your browser and go to: http://localhost:5173
 
-**Environment Variables:**
+ ## Environment Variables
+
 Create a .env file in the backend/ directory and configure the following:
-```env
+```bash
 MONGODB_URI=your_mongodb_uri
 PORT=5001
 JWT_SECRET=your_jwt_secret
@@ -101,6 +98,7 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 NODE_ENV=development
+
 
 
 
