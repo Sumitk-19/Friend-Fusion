@@ -1,4 +1,5 @@
 # FriendFusion
+Live link - https://friend-fusion-3f85.onrender.com/login
 
 **FriendFusion** is a real-time chat application that enables users to connect, communicate, and share images instantly. Built with modern web technologies like React, Node.js, Socket.io, and MongoDB, FriendFusion provides a seamless chat experience with user authentication, image sharing, and responsive design.
 
